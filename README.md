@@ -13,7 +13,7 @@ This project is designed to [briefly describe the purpose of your project]. It u
 1. Download and install the Arduino IDE from [Arduino website](https://www.arduino.cc/en/software).
 2. Clone this repository to your local machine:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/Armanislam527/arduino_learning.git
     ```
 3. Open the project in the Arduino IDE:
     - Go to `File` -> `Open...`
