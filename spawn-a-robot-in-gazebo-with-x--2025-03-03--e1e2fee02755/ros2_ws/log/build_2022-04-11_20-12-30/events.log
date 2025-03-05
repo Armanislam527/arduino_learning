@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.001432] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001511] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.016834] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.017753] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.018853] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/my_package', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/my_package', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('SLOT_OVPN_MASTER_URI', 'http://2_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/my_package'), ('PORT', '4000'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/my_package:/opt/ros/galactic'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/my_package:/opt/ros/galactic'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '525291'), ('SLOT_PREFIX', '679b1425-5402-49c4-81f1-acae09ad663c'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25300'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/galactic/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'galactic'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'galactic'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.056120] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.090322] (my_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.090608] (my_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099519] (-) TimerEvent: {}
+[0.167533] (my_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.183298] (my_package) StdoutLine: {'line': b'-- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.199612] (-) TimerEvent: {}
+[0.238517] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.243172] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.299740] (-) TimerEvent: {}
+[0.400144] (-) TimerEvent: {}
+[0.464381] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500242] (-) TimerEvent: {}
+[0.543171] (my_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.545454] (my_package) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.574607] (my_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.600359] (-) TimerEvent: {}
+[0.700707] (-) TimerEvent: {}
+[0.786246] (my_package) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[0.800827] (-) TimerEvent: {}
+[0.829623] (my_package) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[0.900973] (-) TimerEvent: {}
+[0.934532] (my_package) StdoutLine: {'line': b'-- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)\n'}
+[1.001138] (-) TimerEvent: {}
+[1.039677] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.101243] (-) TimerEvent: {}
+[1.141717] (my_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.151167] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.151405] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.151600] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.162063] (my_package) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.162242] (my_package) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.164343] (my_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.168288] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.170559] (my_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.184635] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.184836] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.186878] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.193669] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.201308] (-) TimerEvent: {}
+[1.210894] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[1.213194] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/my_package\n'}
+[1.246341] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle_avoidance\x1b[0m\n'}
+[1.246607] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_marker_pub\x1b[0m\n'}
+[1.298285] (my_package) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoidance.dir/src/obstacle_avoidance.cpp.o\x1b[0m\n'}
+[1.302005] (-) TimerEvent: {}
+[1.313606] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rviz_marker_pub.dir/src/rviz_marker.cpp.o\x1b[0m\n'}
+[1.403665] (-) TimerEvent: {}
+[1.504097] (-) TimerEvent: {}
+[1.604554] (-) TimerEvent: {}
+[1.705006] (-) TimerEvent: {}
+[1.805380] (-) TimerEvent: {}
+[1.905771] (-) TimerEvent: {}
+[2.006517] (-) TimerEvent: {}
+[2.107115] (-) TimerEvent: {}
+[2.207746] (-) TimerEvent: {}
+[2.308444] (-) TimerEvent: {}
+[2.408891] (-) TimerEvent: {}
+[2.510096] (-) TimerEvent: {}
+[2.610509] (-) TimerEvent: {}
+[2.710916] (-) TimerEvent: {}
+[2.811619] (-) TimerEvent: {}
+[2.915652] (-) TimerEvent: {}
+[3.019652] (-) TimerEvent: {}
+[3.122941] (-) TimerEvent: {}
+[3.225375] (-) TimerEvent: {}
+[3.325747] (-) TimerEvent: {}
+[3.426098] (-) TimerEvent: {}
+[3.526527] (-) TimerEvent: {}
+[3.627654] (-) TimerEvent: {}
+[3.728085] (-) TimerEvent: {}
+[3.828535] (-) TimerEvent: {}
+[3.929485] (-) TimerEvent: {}
+[4.030483] (-) TimerEvent: {}
+[4.131176] (-) TimerEvent: {}
+[4.233036] (-) TimerEvent: {}
+[4.334771] (-) TimerEvent: {}
+[4.443665] (-) TimerEvent: {}
+[4.546366] (-) TimerEvent: {}
+[4.646732] (-) TimerEvent: {}
+[4.747207] (-) TimerEvent: {}
+[4.847643] (-) TimerEvent: {}
+[4.948044] (-) TimerEvent: {}
+[5.048422] (-) TimerEvent: {}
+[5.148765] (-) TimerEvent: {}
+[5.249096] (-) TimerEvent: {}
+[5.349456] (-) TimerEvent: {}
+[5.449826] (-) TimerEvent: {}
+[5.550234] (-) TimerEvent: {}
+[5.650604] (-) TimerEvent: {}
+[5.750965] (-) TimerEvent: {}
+[5.851410] (-) TimerEvent: {}
+[5.951789] (-) TimerEvent: {}
+[6.052131] (-) TimerEvent: {}
+[6.152552] (-) TimerEvent: {}
+[6.252901] (-) TimerEvent: {}
+[6.353367] (-) TimerEvent: {}
+[6.453729] (-) TimerEvent: {}
+[6.554202] (-) TimerEvent: {}
+[6.654488] (-) TimerEvent: {}
+[6.754862] (-) TimerEvent: {}
+[6.855200] (-) TimerEvent: {}
+[6.955533] (-) TimerEvent: {}
+[7.055954] (-) TimerEvent: {}
+[7.156284] (-) TimerEvent: {}
+[7.256658] (-) TimerEvent: {}
+[7.357023] (-) TimerEvent: {}
+[7.457396] (-) TimerEvent: {}
+[7.557897] (-) TimerEvent: {}
+[7.658330] (-) TimerEvent: {}
+[7.698483] (my_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable rviz_marker_pub\x1b[0m\n'}
+[7.758459] (-) TimerEvent: {}
+[7.858839] (-) TimerEvent: {}
+[7.959228] (-) TimerEvent: {}
+[7.967674] (my_package) StdoutLine: {'line': b'[ 75%] Built target rviz_marker_pub\n'}
+[8.059352] (-) TimerEvent: {}
+[8.160765] (-) TimerEvent: {}
+[8.262355] (-) TimerEvent: {}
+[8.362924] (-) TimerEvent: {}
+[8.463405] (-) TimerEvent: {}
+[8.563930] (-) TimerEvent: {}
+[8.664340] (-) TimerEvent: {}
+[8.764957] (-) TimerEvent: {}
+[8.865425] (-) TimerEvent: {}
+[8.965867] (-) TimerEvent: {}
+[9.066280] (-) TimerEvent: {}
+[9.166690] (-) TimerEvent: {}
+[9.267204] (-) TimerEvent: {}
+[9.367600] (-) TimerEvent: {}
+[9.468046] (-) TimerEvent: {}
+[9.568436] (-) TimerEvent: {}
+[9.668839] (-) TimerEvent: {}
+[9.769249] (-) TimerEvent: {}
+[9.869726] (-) TimerEvent: {}
+[9.970135] (-) TimerEvent: {}
+[10.070566] (-) TimerEvent: {}
+[10.171020] (-) TimerEvent: {}
+[10.271436] (-) TimerEvent: {}
+[10.371878] (-) TimerEvent: {}
+[10.472763] (-) TimerEvent: {}
+[10.573201] (-) TimerEvent: {}
+[10.673634] (-) TimerEvent: {}
+[10.774051] (-) TimerEvent: {}
+[10.874461] (-) TimerEvent: {}
+[10.974872] (-) TimerEvent: {}
+[11.075366] (-) TimerEvent: {}
+[11.175810] (-) TimerEvent: {}
+[11.276205] (-) TimerEvent: {}
+[11.376608] (-) TimerEvent: {}
+[11.477037] (-) TimerEvent: {}
+[11.577444] (-) TimerEvent: {}
+[11.679176] (-) TimerEvent: {}
+[11.779582] (-) TimerEvent: {}
+[11.880010] (-) TimerEvent: {}
+[11.980457] (-) TimerEvent: {}
+[12.080865] (-) TimerEvent: {}
+[12.181225] (-) TimerEvent: {}
+[12.281720] (-) TimerEvent: {}
+[12.382162] (-) TimerEvent: {}
+[12.482558] (-) TimerEvent: {}
+[12.583002] (-) TimerEvent: {}
+[12.683449] (-) TimerEvent: {}
+[12.783887] (-) TimerEvent: {}
+[12.884304] (-) TimerEvent: {}
+[12.888639] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoidance\x1b[0m\n'}
+[12.984435] (-) TimerEvent: {}
+[13.084840] (-) TimerEvent: {}
+[13.185325] (-) TimerEvent: {}
+[13.253448] (my_package) StdoutLine: {'line': b'[100%] Built target obstacle_avoidance\n'}
+[13.267684] (my_package) CommandEnded: {'returncode': 0}
+[13.285695] (-) TimerEvent: {}
+[13.323984] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[13.337178] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/my_package'], 'cwd': '/home/user/ros2_ws/build/my_package', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('SLOT_OVPN_MASTER_URI', 'http://2_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/my_package'), ('PORT', '4000'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/my_package:/opt/ros/galactic'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/my_package:/opt/ros/galactic'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '525291'), ('SLOT_PREFIX', '679b1425-5402-49c4-81f1-acae09ad663c'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25300'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/galactic/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'galactic'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'galactic'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[13.348192] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.348788] (my_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.349444] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/lib/my_package//obstacle_avoidance\n'}
+[13.349728] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/lib/my_package//rviz_marker_pub\n'}
+[13.350397] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/my_package/share/my_package//launch/launch_project.launch.xml\n'}
+[13.365516] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package//launch/simulation.launch.py\n'}
+[13.365718] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[13.366116] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[13.366730] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[13.367434] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[13.368605] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[13.369542] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[13.369687] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[13.370432] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[13.371399] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[13.371541] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[13.372519] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/my_package/share/my_package/package.dsv\n'}
+[13.386696] (-) TimerEvent: {}
+[13.390176] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[13.390578] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[13.390899] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[13.391350] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/package.xml\n'}
+[13.394197] (my_package) CommandEnded: {'returncode': 0}
+[13.488558] (-) TimerEvent: {}
+[13.514454] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[13.515283] (-) EventReactorShutdown: {}

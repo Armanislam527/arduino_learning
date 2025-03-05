@@ -1,0 +1,79 @@
+[0.024s] Invoking command in '/home/user/ros2_ws/build/rule_based_obstacle_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/rule_based_obstacle_avoidance -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/rule_based_obstacle_avoidance
+[0.102s] -- The C compiler identification is GNU 9.4.0
+[0.177s] -- The CXX compiler identification is GNU 9.4.0
+[0.184s] -- Check for working C compiler: /usr/bin/cc
+[0.282s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.284s] -- Detecting C compiler ABI info
+[0.382s] -- Detecting C compiler ABI info - done
+[0.402s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.407s] -- Check for working CXX compiler: /usr/bin/c++
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.540s] -- Detecting CXX compiler ABI info
+[0.672s] -- Detecting CXX compiler ABI info - done
+[0.694s] -- Detecting CXX compile features
+[0.694s] -- Detecting CXX compile features - done
+[0.701s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.743s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.743s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.888s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.995s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.012s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.158s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.218s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.499s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.505s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.542s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.544s] -- Looking for pthread.h
+[1.652s] -- Looking for pthread.h - found
+[1.652s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.763s] -- Looking for pthread_create in pthreads
+[1.853s] -- Looking for pthread_create in pthreads - not found
+[1.853s] -- Looking for pthread_create in pthread
+[1.959s] -- Looking for pthread_create in pthread - found
+[1.960s] -- Found Threads: TRUE  
+[2.221s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[2.282s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.401s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.538s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.553s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.559s] -- Configured cppcheck include dirs: 
+[2.559s] -- Configured cppcheck exclude dirs and/or files: 
+[2.567s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.568s] -- Configured cpplint exclude dirs and/or files: 
+[2.570s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.574s] -- Added test 'lint_cmake' to check CMake code style
+[2.576s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.590s] -- Added test 'uncrustify' to check C / C++ code style
+[2.590s] -- Configured uncrustify additional arguments: 
+[2.592s] -- Added test 'xmllint' to check XML markup files
+[2.599s] -- Configuring done
+[2.615s] -- Generating done
+[2.617s] -- Build files have been written to: /home/user/ros2_ws/build/rule_based_obstacle_avoidance
+[2.629s] Invoked command in '/home/user/ros2_ws/build/rule_based_obstacle_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/rule_based_obstacle_avoidance -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/rule_based_obstacle_avoidance
+[2.634s] Invoking command in '/home/user/ros2_ws/build/rule_based_obstacle_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rule_based_obstacle_avoidance -- -j8 -l8
+[2.702s] [35m[1mScanning dependencies of target obstacle_avoidance[0m
+[2.780s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance.dir/src/obstacle_avoidance.cpp.o[0m
+[14.535s] [100%] [32m[1mLinking CXX executable obstacle_avoidance[0m
+[14.948s] [100%] Built target obstacle_avoidance
+[14.970s] Invoked command in '/home/user/ros2_ws/build/rule_based_obstacle_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rule_based_obstacle_avoidance -- -j8 -l8
+[15.046s] Invoking command in '/home/user/ros2_ws/build/rule_based_obstacle_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rule_based_obstacle_avoidance
+[15.060s] -- Install configuration: ""
+[15.060s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/ament_index/resource_index/package_run_dependencies/rule_based_obstacle_avoidance
+[15.060s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/ament_index/resource_index/parent_prefix_path/rule_based_obstacle_avoidance
+[15.061s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/environment/ament_prefix_path.sh
+[15.062s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/environment/ament_prefix_path.dsv
+[15.062s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/environment/path.sh
+[15.062s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/environment/path.dsv
+[15.063s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/local_setup.bash
+[15.063s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/local_setup.sh
+[15.063s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/local_setup.zsh
+[15.064s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/local_setup.dsv
+[15.064s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/package.dsv
+[15.064s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/ament_index/resource_index/packages/rule_based_obstacle_avoidance
+[15.065s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/cmake/rule_based_obstacle_avoidanceConfig.cmake
+[15.065s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/cmake/rule_based_obstacle_avoidanceConfig-version.cmake
+[15.065s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/package.xml
+[15.069s] Invoked command in '/home/user/ros2_ws/build/rule_based_obstacle_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rule_based_obstacle_avoidance

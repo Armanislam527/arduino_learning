@@ -1,0 +1,25 @@
+[0.284s] Invoking command in '/home/user/ros2_ws/build/rule_based_obstacle_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rule_based_obstacle_avoidance -- -j8 -l8
+[2.723s] [100%] Built target obstacle_avoidance
+[2.750s] Invoked command in '/home/user/ros2_ws/build/rule_based_obstacle_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rule_based_obstacle_avoidance -- -j8 -l8
+[2.876s] Invoking command in '/home/user/ros2_ws/build/rule_based_obstacle_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rule_based_obstacle_avoidance
+[2.899s] -- Install configuration: ""
+[2.899s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/lib/rule_based_obstacle_avoidance/obstacle_avoidance
+[2.900s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance//launch
+[2.900s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance//launch/gazebo_and_obstacle_avoidance.launch.xml
+[2.901s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance//launch/empty_simulation.launch.py
+[2.902s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/ament_index/resource_index/package_run_dependencies/rule_based_obstacle_avoidance
+[2.902s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/ament_index/resource_index/parent_prefix_path/rule_based_obstacle_avoidance
+[2.903s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/environment/ament_prefix_path.sh
+[2.904s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/environment/ament_prefix_path.dsv
+[2.904s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/environment/path.sh
+[2.905s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/environment/path.dsv
+[2.905s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/local_setup.bash
+[2.906s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/local_setup.sh
+[2.906s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/local_setup.zsh
+[2.906s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/local_setup.dsv
+[2.906s] -- Installing: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/package.dsv
+[2.907s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/ament_index/resource_index/packages/rule_based_obstacle_avoidance
+[2.908s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/cmake/rule_based_obstacle_avoidanceConfig.cmake
+[2.908s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/cmake/rule_based_obstacle_avoidanceConfig-version.cmake
+[2.908s] -- Up-to-date: /home/user/ros2_ws/install/rule_based_obstacle_avoidance/share/rule_based_obstacle_avoidance/package.xml
+[2.928s] Invoked command in '/home/user/ros2_ws/build/rule_based_obstacle_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rule_based_obstacle_avoidance

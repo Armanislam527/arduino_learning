@@ -1,0 +1,58 @@
+[0.035s] Invoking command in '/home/user/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_package
+[0.060s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.105s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.197s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.218s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.286s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.656s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.659s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.699s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.991s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.061s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.212s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[1.375s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.504s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.517s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.518s] -- Configured cppcheck include dirs: 
+[1.518s] -- Configured cppcheck exclude dirs and/or files: 
+[1.532s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.532s] -- Configured cpplint exclude dirs and/or files: 
+[1.534s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.537s] -- Added test 'lint_cmake' to check CMake code style
+[1.542s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.553s] -- Added test 'uncrustify' to check C / C++ code style
+[1.553s] -- Configured uncrustify additional arguments: 
+[1.559s] -- Added test 'xmllint' to check XML markup files
+[1.562s] -- Configuring done
+[1.587s] -- Generating done
+[1.591s] -- Build files have been written to: /home/user/ros2_ws/build/my_package
+[1.618s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_package
+[1.620s] Invoking command in '/home/user/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_package -- -j8 -l8
+[1.737s] [ 50%] Built target obstacle_avoidance
+[1.752s] [100%] Built target rviz_marker_pub
+[1.769s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_package -- -j8 -l8
+[1.831s] Invoking command in '/home/user/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_package
+[1.847s] -- Install configuration: ""
+[1.847s] -- Execute custom install script
+[1.848s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/lib/my_package//obstacle_avoidance
+[1.849s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/lib/my_package//rviz_marker_pub
+[1.850s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package//launch/launch_project.launch.xml
+[1.850s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package//launch/simulation.launch.py
+[1.851s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.851s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.852s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.852s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.853s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[1.854s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[1.854s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[1.855s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[1.855s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[1.856s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[1.856s] -- Symlinking: /home/user/ros2_ws/install/my_package/share/my_package/package.dsv
+[1.871s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.871s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.871s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.872s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/package.xml
+[1.875s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_package

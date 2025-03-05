@@ -1,0 +1,30 @@
+[0.022s] Invoking command in '/home/user/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_package -- -j8 -l8
+[0.082s] [35m[1mScanning dependencies of target obstacle_avoidance[0m
+[0.106s] [ 50%] Built target rviz_marker_pub
+[0.127s] [ 75%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance.dir/src/obstacle_avoidance.cpp.o[0m
+[11.117s] [100%] [32m[1mLinking CXX executable obstacle_avoidance[0m
+[11.543s] [100%] Built target obstacle_avoidance
+[11.561s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_package -- -j8 -l8
+[11.640s] Invoking command in '/home/user/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_package
+[11.654s] -- Install configuration: ""
+[11.655s] -- Execute custom install script
+[11.655s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package//launch/project_launch.launch.xml
+[11.655s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package//launch/simulation.launch.py
+[11.656s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/lib/my_package//obstacle_avoidance
+[11.657s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/lib/my_package//rviz_marker_pub
+[11.657s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[11.658s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[11.658s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[11.659s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[11.659s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[11.660s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[11.660s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[11.661s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[11.661s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[11.662s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[11.662s] -- Symlinking: /home/user/ros2_ws/install/my_package/share/my_package/package.dsv
+[11.679s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[11.679s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[11.680s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[11.680s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_package/share/my_package/package.xml
+[11.685s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_package

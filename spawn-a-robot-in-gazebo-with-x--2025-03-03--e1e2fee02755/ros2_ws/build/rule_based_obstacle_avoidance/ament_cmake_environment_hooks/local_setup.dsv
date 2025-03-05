@@ -1,0 +1,2 @@
+source;share/rule_based_obstacle_avoidance/environment/ament_prefix_path.sh
+source;share/rule_based_obstacle_avoidance/environment/path.sh
