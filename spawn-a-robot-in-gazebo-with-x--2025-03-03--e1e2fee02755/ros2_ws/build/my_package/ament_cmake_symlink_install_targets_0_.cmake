@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/ros2_ws/build/my_package/obstacle_avoidance" "/home/user/ros2_ws/build/my_package/rviz_marker_pub" "TARGETS" "obstacle_avoidance" "rviz_marker_pub" "DESTINATION" "lib/my_package/")

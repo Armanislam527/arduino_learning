@@ -1,1 +1,0 @@
-/home/user/ros2_ws/src/my_package/launch/empty_simulation.launch.py

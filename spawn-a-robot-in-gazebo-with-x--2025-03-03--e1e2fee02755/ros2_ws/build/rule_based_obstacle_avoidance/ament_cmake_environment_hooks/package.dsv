@@ -1,4 +1,0 @@
-source;share/rule_based_obstacle_avoidance/local_setup.bash
-source;share/rule_based_obstacle_avoidance/local_setup.dsv
-source;share/rule_based_obstacle_avoidance/local_setup.sh
-source;share/rule_based_obstacle_avoidance/local_setup.zsh
